@@ -54,7 +54,7 @@ const createChatLi = (message, className) => {
 };
 
 const generateResponse = (chatElement, typingInterval) => {
-    const SERVER_URL = "https://szbzgvll-5000.inc1.devtunnels.ms//get-response";
+    const SERVER_URL = "https://heyfordbot.onrender.com//get-response";
     const userId = getUserId();
 
     fetch(SERVER_URL, {
